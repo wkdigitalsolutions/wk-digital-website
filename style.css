@@ -1,1 +1,37 @@
+body{
+  margin:0;
+  background:#0a0a0a;
+  color:white;
+  font-family:Arial,sans-serif;
+}
 
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.hero h1{
+  font-size:48px;
+  color:gold;
+}
+
+.hero p{
+  max-width:600px;
+  line-height:1.6;
+  font-size:18px;
+}
+
+.hero a{
+  margin-top:20px;
+  background:gold;
+  color:black;
+  padding:14px 24px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+}
